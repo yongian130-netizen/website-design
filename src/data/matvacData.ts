@@ -1,3 +1,8 @@
+import heroMobileVanImg from '../assets/images/hero_mobile_detailing_1791715356880.jpg';
+import interiorExtractionImg from '../assets/images/interior_seat_extraction_1791715376171.jpg';
+import creviceInspectionImg from '../assets/images/crevice_detailing_inspection_1791715388425.jpg';
+import waterWaxFinishImg from '../assets/images/water_wax_exterior_finish_1791715399335.jpg';
+
 export type VehicleSizeId = 'mini' | 'sedan' | 'suv' | 'mpv';
 
 export interface VehicleSizeOption {
@@ -72,10 +77,10 @@ export interface WebsiteImprovementItem {
 }
 
 export const IMAGES = {
-  heroMobileVan: '/src/assets/images/hero_mobile_detailing_1791715356880.jpg',
-  interiorExtraction: '/src/assets/images/interior_seat_extraction_1791715376171.jpg',
-  creviceInspection: '/src/assets/images/crevice_detailing_inspection_1791715388425.jpg',
-  waterWaxFinish: '/src/assets/images/water_wax_exterior_finish_1791715399335.jpg',
+  heroMobileVan: heroMobileVanImg,
+  interiorExtraction: interiorExtractionImg,
+  creviceInspection: creviceInspectionImg,
+  waterWaxFinish: waterWaxFinishImg,
 };
 
 export const BUSINESS_INFO = {
