@@ -1,0 +1,6 @@
+{
+  "name": "Matvac Mobile Detailing — Seremban & Klang Valley",
+  "description": "Doorstep mobile car wash, deep seat extraction, water wax, and full interior detailing based in Chemara Hills, Seremban.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
